@@ -18,7 +18,7 @@ env:
 
 before_install:
 # install build dependencies
-- sudo apt-get libatlas3-base
+- sudo apt-get install libatlas3-base
 # use the correct version of node
 - rm -rf ~/.nvm/ && git clone --depth 1 https://github.com/creationix/nvm.git ~/.nvm
 - source ~/.nvm/nvm.sh
